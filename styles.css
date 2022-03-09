@@ -75,11 +75,12 @@ header{
 
 .image{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #999999;
-    color: #e5e7eb;
     width: 50%;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
 
 /*Content*/
@@ -113,9 +114,13 @@ header{
 
 .wrapper img{
     width: 100%;
-    height: 100%;
+    height: 150px;
     border-radius: 25px;
     border: solid blue 2px
+}
+
+.wrapper p{
+    margin-top: 10px;
 }
 
 /*quote*/
