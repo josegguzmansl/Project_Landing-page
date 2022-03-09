@@ -122,7 +122,7 @@ header{
 
 .cont-quote{
     display: flex;
-    padding: 150px 200px;
+    padding: 150px 350px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -133,9 +133,9 @@ header{
     color: #1f2937;
 }
 
-.quote{
-    gap: 10px;
-    text-align: justify;
+.quote p{
+    text-align: start;
+    margin-bottom: 10px;
 }
 
 .signature{
